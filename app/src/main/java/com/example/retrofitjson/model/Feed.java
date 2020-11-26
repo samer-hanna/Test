@@ -11,6 +11,7 @@ public class Feed {
     @SerializedName("entry")
     @Expose
     private ArrayList<Entry1> entries;
+
     public ArrayList<Entry1> getEntries() {
         return entries;
     }

@@ -7,6 +7,7 @@ public class MyModel {
     @SerializedName("feed")
     @Expose
     private Feed feed;
+    //root
 
     public Feed getFeed() {
         return feed;
