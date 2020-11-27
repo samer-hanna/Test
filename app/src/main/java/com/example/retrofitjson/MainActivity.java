@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     private static final String BASE_URL = "https://itunes.apple.com/";
+    // the base URL of the JSON file
     RecyclerView recyclerViewApps;
     List<Entry1> apps_list;
     @Override
